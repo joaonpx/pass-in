@@ -29,7 +29,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 1240
+SET FILES CHECK 1348
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -61,6 +61,8 @@ INSERT INTO "flyway_schema_history" VALUES(4,'4','create-indexes','SQL','V4__cre
 INSERT INTO EVENTS VALUES('1a9ce244-4283-440c-b0df-525820686861','Rocketseat NLW Unite 2.0','Aprenda varias tecnologias de forma gratuita e online!','rocketseat-nlw-unite-20',1)
 INSERT INTO EVENTS VALUES('6a3d8f22-7252-4341-860b-44d9f0874e7c','Rocketseat NLW','Aprenda Java de forma gratuita!','rocketseat-nlw',500)
 INSERT INTO EVENTS VALUES('b983f6af-4e8b-424e-a504-d8f742132d41','Rocketseat NLW Unite','Aprenda varias tecnologias de forma gratuita e online!','rocketseat-nlw-unite',1000)
+INSERT INTO EVENTS VALUES('c8b6dba7-ce01-4a96-a993-c8b13183f26a','Rocketseat NLW Unite 3.0','Aprenda varias tecnologias de forma gratuita e online!','rocketseat-nlw-unite-30',2)
+INSERT INTO ATTENDEES VALUES('287b807f-1a2a-4403-9726-89a2e49c7bf0','Bru3g41no','reqrr@email.com','c8b6dba7-ce01-4a96-a993-c8b13183f26a','2024-04-05 17:33:43.421891')
 INSERT INTO ATTENDEES VALUES('5074ac40-7637-43dd-8d9c-576513207d67','Jo\u00e3o Carlos','joaocarlosnpx@email.com','6a3d8f22-7252-4341-860b-44d9f0874e7c','2024-04-05 16:35:01.777330')
 INSERT INTO ATTENDEES VALUES('9a705817-5acd-4426-8772-e0e653d6d4ab','Bruno','joaoca231rlosnpx@email.com','1a9ce244-4283-440c-b0df-525820686861','2024-04-05 16:38:12.489979')
 INSERT INTO ATTENDEES VALUES('b983f6af-4e8b-424e-a504-d8f742132d41','Jo\u00c3\u00a3o Carlos','joaocarlos@email.com','6a3d8f22-7252-4341-860b-44d9f0874e7c',NULL)
